@@ -1,0 +1,12 @@
+@import "gaia";
+
+section::after {
+    font-weight: bold;
+    content: attr(data-marpit-pagination) "/" attr(data-marpit-pagination-total);
+}
+section.lead h1 {
+    text-align: left;
+}
+section.lead p {
+    text-align: right;
+}
