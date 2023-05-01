@@ -1,4 +1,7 @@
-/* @theme gaia_for_me */
+/*
+@theme gaia_for_me
+@link https://github.com/marp-team/marp-core/blob/main/themes/gaia.scss
+*/
 
 @import "gaia";
 
@@ -11,4 +14,10 @@ section.lead h1 {
 }
 section.lead p {
     text-align: right;
+}
+section.list-col-2 ul {
+    column-count: 2;
+}
+section.list-col-3 ul {
+    column-count: 3;
 }
