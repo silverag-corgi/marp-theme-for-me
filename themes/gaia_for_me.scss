@@ -5,6 +5,9 @@
 
 @import "gaia";
 
+section {
+    background-image: url("https://marp.app/assets/hero-background.svg");
+}
 section::after {
     font-weight: bold;
     content: attr(data-marpit-pagination) "/" attr(data-marpit-pagination-total);
