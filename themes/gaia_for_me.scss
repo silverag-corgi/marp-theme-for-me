@@ -18,6 +18,9 @@ section.lead h1 {
 section.lead p {
     text-align: right;
 }
+section.list-col-1 ul {
+    column-count: 1;
+}
 section.list-col-2 ul {
     column-count: 2;
 }
